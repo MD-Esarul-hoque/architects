@@ -70,3 +70,41 @@
     font-size: 20px;
     margin: 20px 0px;
 }
+.sec3{
+    display: flex;
+    margin: 10px 100px;
+    gap: 50px;
+}
+.sec3-title{
+    font-size: 50px;
+    font-weight: 700;
+    border-left: 4px solid orange;
+    padding: 10px;
+}
+.sec3-paragraph{
+    margin: 15px 0px;
+    font-size: 18px;
+}
+.sec3-div-2ndpart{
+    background-color: rgb(245, 248, 242);
+    padding: 10px;
+    box-shadow: 4px 2px 6px ;
+    margin: 50px 0px;
+}
+.sec3-pp{
+    margin: 10px 0px;   
+}
+.btn-Primary{
+    background-color: rgb(255, 166, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 900px;
+    margin-top: -50px;
+    margin-left: -20px;
+    margin-bottom: 50px;
+}
+.img-sec3{
+    height: 900px;
+}
