@@ -108,3 +108,44 @@
 .img-sec3{
     height: 900px;
 }
+.sec4{
+    margin: 20px 100px;
+}
+
+.sec4-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+} 
+.para{
+    color: gray;
+}
+.sec4-div{
+    display: flex;
+    justify-content: space-around;
+}
+.sec4-div-div{
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 30px 0px;
+}
+.numbers{
+    margin: 10px 0px;
+}
+.para-down{
+    font-size: 20px;
+}
+.sec5{
+    margin: 20px 100px;
+    margin-bottom: 70px;
+}
+
+.sec5-div{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sec5-div2{
+    display: flex;
+    justify-content: space-around;
+}
