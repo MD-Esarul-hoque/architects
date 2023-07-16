@@ -30,7 +30,7 @@
     font-weight: 700;
     margin-top: 50px;
 }
-.sec-paragrap{
+.sec-paragraph{
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -148,4 +148,62 @@
 .sec5-div2{
     display: flex;
     justify-content: space-around;
+}
+@media screen and (max-width:576px){
+   .header{
+    padding: 50px ;
+    
+   }
+   .nav{
+    flex-direction: column;
+   }
+   .nav-div{
+    margin-top: 30px;
+    gap: 10px;
+  }
+  .img{
+    height: 100%;
+    width: 100%;
+  }
+  .sec2{
+    flex-direction: column;
+  }
+  .sec2-div1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .sec3{
+    flex-direction: column;
+  }
+  .sec3-title{
+    font-size: 30px;
+  }
+  .img-sec3{
+    height: 100%;
+    width: 100%;
+  }
+  .sec4-title{
+    font-size: 40px;
+    text-align: center;
+  }
+  .sec2-div-title{
+    text-align: center;
+    font-size: 30px;
+  }
+  .sec2-div-paragraph{
+    text-align: center;
+    font-size: 18px;
+  }
+  .para{
+    text-align: center;
+  }
+  .sec4-div{
+    flex-direction: column;
+    
+  }
+  .sec5-div2{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
 }
